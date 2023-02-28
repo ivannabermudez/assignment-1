@@ -1,0 +1,68 @@
+
+html, body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+height: 40px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding-top: 2px;
+}
+main {
+    height: calc(100% - 40px);
+}
+
+.parent {
+    display: flex;
+}
+
+#list{
+    flex: 3;
+    background-color: antiquewhite;
+}
+
+#form {
+    flex: 2;
+    background-color: rgb(219, 238, 255);
+}
+
+.iImportant{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.iImportant.fa-solid {
+    color:orangered;
+}
+
+.task{
+    display: flex;
+
+}
+
+.task .info{
+    flex: 5;
+
+}
+.task .category{
+    flex: 1;
+}
+
+.task .details {
+    flex: 2;
+}
+
+.task .details label {
+    display: block;
+    text-align: center;
+    margin-bottom: 3px;
+}
